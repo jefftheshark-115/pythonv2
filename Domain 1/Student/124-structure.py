@@ -8,7 +8,7 @@ print(coins)
 
 #set example
 regions = {"north","south","east"}
-
+regions.add("west")
 print(regions)
 
 #tuple example
