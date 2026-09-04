@@ -3,6 +3,7 @@
 #message.write('Testing file for player score\n')
 #message.close()
 
+
 with open('318-message.text','w+') as message:
     message.write('Testing file for player configuration\n')
     message.write('Testing file for player score\n')
