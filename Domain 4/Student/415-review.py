@@ -1,6 +1,6 @@
+"""Tells players what positions they have reached in each stage in the game 
 
-
-
+"""
 game_state = True
 game_lives = 1
 while game_lives <= 3:
@@ -9,4 +9,4 @@ while game_lives <= 3:
     if game_state == True:
         game_lives +=1
 print("Thank you for playing.")
-
+print(__doc__)
