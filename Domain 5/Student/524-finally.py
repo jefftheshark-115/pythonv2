@@ -6,3 +6,5 @@ except:
     print('You did not enter a figurative. Try again')
 else:
     print(f'You chose the {figurative} figurative and will get an example soon.')
+finally:
+     print('thank you for playing.')
