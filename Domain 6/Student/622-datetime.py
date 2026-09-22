@@ -1,3 +1,5 @@
 import datetime
-current_time = #current date and time
-print("The current date and time is:", # date in mm-dd-yy)
+current_time = datetime.datetime.now()
+print("The current date and time is:", current_time.strftime("%m-%d-%Y %H:%M:%S"))
+print("The current weekday is:", current_time.weekday())
+print("The current weekday is:", current_time.strftime("%A"))

@@ -1,9 +1,9 @@
 import math
 
-x=3.33
-y=-12
+x=3
+y=-13
 
-print(math.fabs(y))
+#print(math.fabs(y))
 
 #print(math.ceil(x))
 
